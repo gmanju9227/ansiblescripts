@@ -1,0 +1,4 @@
+- hosts: host1
+  tasks:
+       - name: creating folder in home directory
+         file: path="/home/manju/suresh" state=directory mode=0755

@@ -1,0 +1,5 @@
+- hosts: host1
+  tasks:
+       - name: change owner
+         file: path='"/home/manju/dummy/" owner=root mode=0755 
+         become: yes           

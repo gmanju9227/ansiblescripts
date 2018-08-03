@@ -1,0 +1,5 @@
+- hosts: host1
+  tasks: 
+       - name: installing apache from local archived 
+         apt: name=tomcat7 update_cache=yes
+         become: yes

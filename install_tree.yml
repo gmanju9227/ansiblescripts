@@ -1,0 +1,5 @@
+- hosts: host1
+  tasks:
+       - name: install "tree"
+         apt: name=tree state=present
+         become: yes

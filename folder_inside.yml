@@ -1,0 +1,4 @@
+- hosts: host1
+  tasks:
+       - name: creating folder inside home directory 
+         file: path="/home/manju/suresh/hima/" state=touch mode=0755

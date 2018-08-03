@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks: 
+       - name: copying file from local to remote
+         copy: src=/home/manju/repo/shell/shellscripts/oddeven.sh dest=/home/ubuntu owner=ubuntu group=ubuntu mode=0775

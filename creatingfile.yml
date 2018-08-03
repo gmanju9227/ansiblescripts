@@ -1,0 +1,4 @@
+- hosts: host1
+  tasks:
+       - name: creating file in home directory
+         file: path="/home/manju/suresh/file1" state=touch mode=0755

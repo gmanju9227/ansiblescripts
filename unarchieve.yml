@@ -1,0 +1,4 @@
+- hosts: host1 
+  tasks: 
+       - name: unarchive the tar file
+         unarchive: src=/home/manju/tomcat/apache-tomcat-7.0.90.tar.gz dest=/home/manju/tomcat

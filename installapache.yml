@@ -1,0 +1,7 @@
+- hosts: host1
+  tasks: 
+       - name: installing apache
+         apt: name=apache2 update_cache=yes state=latest
+         become: yes
+       
+

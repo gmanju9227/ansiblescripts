@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks: 
+       - name: copying file from local to remote
+         copy: src=/home/manju/myfile dest=/home/ubuntu/manju owner=ubuntu group=ubuntu mode=0755

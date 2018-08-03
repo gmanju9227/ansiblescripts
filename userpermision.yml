@@ -1,0 +1,5 @@
+- hosts: host3
+  tasks:
+       - name: user permission "shellsoftwares.sh"
+         file: path=/home/manju/shellsoftwares.sh owner=manju group=manju mode=0655 
+         
