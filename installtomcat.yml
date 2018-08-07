@@ -1,4 +1,4 @@
-- hosts: host1
+- hosts: dev
   tasks: 
        - name: installing apache from local archived 
          apt: name=tomcat8 update_cache=yes
