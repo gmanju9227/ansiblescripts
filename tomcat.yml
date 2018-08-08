@@ -1,8 +1,8 @@
 - hosts: dev
-  tasks: 
-       - name: apache tomcat install
+  tasks:
+       - name: x
+         become: yes
          apt: name=tomcat8 update_cache=yes
-         become: yes 
-       - name: enable tomcat startup
+       - name: ena
+         become: yes
          systemd: name=tomcat8 enabled=yes state=restarted
-         become: yes 
