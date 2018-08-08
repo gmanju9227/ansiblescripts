@@ -3,7 +3,3 @@
        - name: x
          become: yes
          apt: name=tomcat8 update_cache=yes
-         
-       - name: ena
-         become: yes
-         systemd: name=tomcat8 enabled=yes state=restarted
