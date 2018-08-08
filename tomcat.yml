@@ -1,3 +1,5 @@
 - hosts: dev
+  become: yes
   tasks:
-       - systemd: name=tomcat8  state=started
+        - name: dsd 
+          systemd: name=tomcat8 enabled=yes state=restarted 
