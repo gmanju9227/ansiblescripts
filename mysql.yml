@@ -3,9 +3,3 @@
        - name: installing mysql
          apt: name=mysql-server update_cache=yes
          become: yes
-       - name: responding prompt
-         prompt: "Do you want to continue? [y/n]"
-         private: yes
-       - name: responding password prompt
-         prompt: New password for the MYSQL "root" user
-         private: yes
