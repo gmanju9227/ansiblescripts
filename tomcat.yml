@@ -1,5 +1,5 @@
 - hosts: dev
   tasks:
-       - name: x
+       - name: ena
          become: yes
-         apt: name=tomcat8 update_cache=yes
+         systemd: name=tomcat8 enabled=yes state=restarted
