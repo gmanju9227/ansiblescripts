@@ -2,4 +2,4 @@
   tasks:
        - name: ena
          become: yes
-         systemd: name=tomcat8 enabled=yes state=restarted
+         systemd: name=tomcat8  state=started
