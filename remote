@@ -1,2 +1,2 @@
 [dev]
-35.154.238.170 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/dev/jenkins.pem ansible_sudo_pass=root 
+35.154.238.170 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/dev/remotekey1.pem ansible_sudo_pass=root 
