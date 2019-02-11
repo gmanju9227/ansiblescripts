@@ -1,2 +1,2 @@
 [dev]
-172.31.22.23 ansible_ssh_user=root ansible_ssh_private_key_file=/home/manju/Downloads/manjuremote.pem ansible_sudo_pass=root 
+172.31.22.23 ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/home/manju/Downloads/manjuremote.pem ansible_sudo_pass=root 
