@@ -1,4 +1,4 @@
-- hosts: dev
+- hosts: [dev]
   tasks:
        - name: install "java"
          apt: name=openjdk-8-jdk update_cache=yes
