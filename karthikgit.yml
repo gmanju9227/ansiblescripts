@@ -1,0 +1,5 @@
+- hosts: [dev]
+  tasks:
+       - name: install "git"
+         yum: name=git update_cache=yes
+         become: yes

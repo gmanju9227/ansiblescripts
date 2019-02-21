@@ -1,5 +1,5 @@
-- hosts: dev
+- hosts: [dev]
   tasks:
        - name: install "tree"
-         apt: name=tree state=present
+         yum: name=tree update_cache=yes
          become: yes

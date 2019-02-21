@@ -1,4 +1,4 @@
-- hosts: host1
+- hosts: [dev]
   tasks:
        - name: creating folder inside home directory 
-         file: path="/home/manju/suresh/hima/file2" state=touch mode=0755
+         file: path="/home/ec2-user/manju/case1" state=touch mode=0755
